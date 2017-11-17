@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>ꉺლஇ•̛upsetஇ•̛ꉺლ</title>
+    <style>
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+    }
+
+    .tile {
+        width: 10%;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        display: inherit;
+        float: left;
+        background-position: 0vw 0vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 10%;
+    }
+
+    .square {
+        width: 10%;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        display: inherit;
+        float: left;
+        background-position: 0vw 0vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 10%;
+        color: white;
+        font-family: "Times New Roman", Times, serif;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    video {
+        width: 50% !important;
+        height: auto !important;
+        margin: 0;
+        padding: 0;
+        float: left;
+    }
+
+    button {
+        margin: auto;
+        display: block;
+    }
+    /* BUTTON STYLES */
+
+    button {
+        padding: 16px 32px;
+        font-family: helvetica;
+        font-size: 16px;
+        font-weight: 100;
+        color: #fff;
+        background: #587286;
+        border: 0;
+        font-weight: 100;
+    }
+
+    button:hover {
+        background: #3B5C76;
+    }
+
+    div.opacity {
+        opacity: 0.4;
+        filter: alpha(opacity=40);
+        -webkit-transition: opacity .3s linear;
+    }
+
+    div.opacity:hover {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        -webkit-transition: opacity .3s linear;
+    }
+    /* END OF BUTTON STYLES */
+    </style>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+
+<body bgcolor="#000000">
+    <audio id="claploop">
+        <source src="assets/sounds/claploop.wav" type="audio/wav">
+    </audio>
+    <div class="container-fluid" id="tilecontainer">
+        <div class="tile" id=00-00 style="background-image: url(assets/head/10-5-00-00.png);"></div>
+        <div class="tile" id=01-00 style="background-image: url(assets/head/10-5-01-00.png);"></div>
+        <div class="tile" id=02-00 style="background-image: url(assets/head/10-5-02-00.png);"></div>
+        <div class="tile" id=03-00 style="background-image: url(assets/head/10-5-03-00.png);"></div>
+        <div class="tile" id=04-00 style="background-image: url(assets/head/10-5-04-00.png);"></div>
+        <div class="tile" id=05-00 style="background-image: url(assets/head/10-5-05-00.png);"></div>
+        <div class="tile" id=06-00 style="background-image: url(assets/head/10-5-06-00.png);"></div>
+        <div class="tile" id=07-00 style="background-image: url(assets/head/10-5-07-00.png);"></div>
+        <div class="tile" id=08-00 style="background-image: url(assets/head/10-5-08-00.png);"></div>
+        <div class="tile" id=09-00 style="background-image: url(assets/head/10-5-09-00.png);"></div>
+        <div class="tile" id=00-01 style="background-image: url(assets/head/10-5-00-01.png);"></div>
+        <div class="tile" id=01-01 style="background-image: url(assets/head/10-5-01-01.png);"></div>
+        <div class="tile" id=02-01 style="background-image: url(assets/head/10-5-02-01.png);"></div>
+        <div class="tile" id=03-01 style="background-image: url(assets/head/10-5-03-01.png);"></div>
+        <div class="tile" id=04-01 style="background-image: url(assets/head/10-5-04-01.png);"></div>
+        <div class="tile" id=05-01 style="background-image: url(assets/head/10-5-05-01.png);"></div>
+        <div class="tile" id=06-01 style="background-image: url(assets/head/10-5-06-01.png);"></div>
+        <div class="tile" id=07-01 style="background-image: url(assets/head/10-5-07-01.png);"></div>
+        <div class="tile" id=08-01 style="background-image: url(assets/head/10-5-08-01.png);"></div>
+        <div class="tile" id=09-01 style="background-image: url(assets/head/10-5-09-01.png);"></div>
+        <div class="tile" id=00-02 style="background-image: url(assets/head/10-5-00-02.png);"></div>
+        <div class="tile" id=01-02 style="background-image: url(assets/head/10-5-01-02.png);"></div>
+        <div class="tile" id=02-02 style="background-image: url(assets/head/10-5-02-02.png);"></div>
+        <div class="tile" id=03-02 style="background-image: url(assets/head/10-5-03-02.png);"></div>
+        <div class="tile" id=04-02 style="background-image: url(assets/head/10-5-04-02.png);"></div>
+        <div class="tile" id=05-02 style="background-image: url(assets/head/10-5-05-02.png);"></div>
+        <div class="tile" id=06-02 style="background-image: url(assets/head/10-5-06-02.png);"></div>
+        <div class="tile" id=07-02 style="background-image: url(assets/head/10-5-07-02.png);"></div>
+        <div class="tile" id=08-02 style="background-image: url(assets/head/10-5-08-02.png);"></div>
+        <div class="tile" id=09-02 style="background-image: url(assets/head/10-5-09-02.png);"></div>
+        <div class="tile" id=00-03 style="background-image: url(assets/head/10-5-00-03.png);"></div>
+        <div class="tile" id=01-03 style="background-image: url(assets/head/10-5-01-03.png);"></div>
+        <div class="tile" id=02-03 style="background-image: url(assets/head/10-5-02-03.png);"></div>
+        <div class="tile" id=03-03 style="background-image: url(assets/head/10-5-03-03.png);"></div>
+        <div class="tile" id=04-03 style="background-image: url(assets/head/10-5-04-03.png);"></div>
+        <div class="tile" id=05-03 style="background-image: url(assets/head/10-5-05-03.png);"></div>
+        <div class="tile" id=06-03 style="background-image: url(assets/head/10-5-06-03.png);"></div>
+        <div class="tile" id=07-03 style="background-image: url(assets/head/10-5-07-03.png);"></div>
+        <div class="tile" id=08-03 style="background-image: url(assets/head/10-5-08-03.png);"></div>
+        <div class="tile" id=09-03 style="background-image: url(assets/head/10-5-09-03.png);"></div>
+        <div class="tile" id=00-04 style="background-image: url(assets/head/10-5-00-04.png);"></div>
+        <div class="tile" id=01-04 style="background-image: url(assets/head/10-5-01-04.png);"></div>
+        <div class="tile" id=02-04 style="background-image: url(assets/head/10-5-02-04.png);"></div>
+        <div class="tile" id=03-04 style="background-image: url(assets/head/10-5-03-04.png);"></div>
+        <div class="tile" id=04-04 style="background-image: url(assets/head/10-5-04-04.png);"></div>
+        <div class="tile" id=05-04 style="background-image: url(assets/head/10-5-05-04.png);"></div>
+        <div class="tile" id=06-04 style="background-image: url(assets/head/10-5-06-04.png);"></div>
+        <div class="tile" id=07-04 style="background-image: url(assets/head/10-5-07-04.png);"></div>
+        <div class="tile" id=08-04 style="background-image: url(assets/head/10-5-08-04.png);"></div>
+        <div class="tile" id=09-04 style="background-image: url(assets/head/10-5-09-04.png);"></div>
+    </div>
+    <script>
+    var i = 0;
+    $("div.tile")
+        .mouseenter(function() {
+            var id = this.id;
+            var images = [
+                "assets/head/blue-" + id + ".png",
+                "assets/head/10-5-" + id + ".png"
+            ];
+            var imageIndex = ++i % images.length;
+            $(this).css('background-image', 'url(' + images[imageIndex] + ')');
+        })
+        .mouseout(function() {});
+    </script>
+    <div class="container-fluid" id="tilecontainer">
+        <div class="square opacity" onclick="playSong(0)" style="background-image: url(assets/blur.jpg);">0</div>
+        <div class="square opacity" onclick="playSong(1)" style="background-image: url(assets/blur.jpg);">1</div>
+        <div class="square opacity" onclick="playSong(2)" style="background-image: url(assets/blur.jpg);">2</div>
+        <div class="square opacity" onclick="playSong(3)" style="background-image: url(assets/blur.jpg);">3</div>
+        <div class="square opacity" onclick="playSong(4)" style="background-image: url(assets/blur.jpg);">4</div>
+        <div class="square opacity" onclick="playSong(5)" style="background-image: url(assets/blur.jpg);">5</div>
+        <div class="square opacity" onclick="playSong(6)" style="background-image: url(assets/blur.jpg);">6</div>
+        <div class="square opacity" onclick="playSong(7)" style="background-image: url(assets/blur.jpg);">7</div>
+        <div class="square opacity" onclick="playSong(8)" style="background-image: url(assets/blur.jpg);">8</div>
+        <div class="square opacity" onclick="playSong(9)" style="background-image: url(assets/blur.jpg);">9</div>
+    </div>
+    <script>
+    function playSong(songID) {
+        console.log(songID);
+        var audio = new Audio('assets/sounds/' + songID + '.wav');
+        audio.play();
+    }
+    </script>
+    <div class="container-fluid">
+        <span>
+            <video loop autoplay>
+                <source src="assets/skeletondance.mp4" type="video/mp4">
+            </video>
+        </span>
+        <span>
+            <video loop autoplay>
+                <source src="assets/skeletondance2.mp4" type="video/mp4">
+            </video>
+        </span>
+    </div>
+    <div>
+        <button class="center" onclick="togglePlay()" style="cursor:pointer">ꉺლஇ•ꉺლஇ•ꉺლஇ•ꉺლஇ•</button>
+    </div>
+    <script>
+    var myAudio = document.getElementById("claploop");
+    var isPlaying = false;
+
+    function togglePlay() {
+        if (isPlaying) {
+            myAudio.pause()
+        } else {
+            myAudio.play();
+        }
+    };
+    myAudio.onplaying = function() {
+        isPlaying = true;
+    };
+    myAudio.onpause = function() {
+        isPlaying = false;
+    };
+    </script>
+    <div class="container-fluid">
+        <span text-align="center">
+            <video loop autoplay>
+                <source src="assets/skeletondance2.mp4" type="video/mp4">
+            </video>
+        </span>
+        <span>
+            <video loop autoplay>
+                <source src="assets/skeletondance.mp4" type="video/mp4">
+            </video>
+        </span>
+    </div>
+    <div class="container-fluid">
+        <canvas id="glitch">
+        </canvas>
+    </div>
+    <script>
+    var canvas = document.getElementById('glitch'),
+        context = canvas.getContext('2d'),
+        img = new Image(),
+        w, h, offset, glitchInterval;
+
+    img.src = 'assets/blur.jpg';
+    img.onload = function() {
+        init();
+        window.onresize = init;
+    };
+
+    var init = function() {
+        clearInterval(glitchInterval);
+        canvas.width = w = window.innerWidth;
+        offset = w * .1;
+        canvas.height = h = window.innerHeight / 5;
+        glitchInterval = setInterval(function() {
+            clear();
+            context.drawImage(img, 0, 110, img.width, 175, offset, 0, w - (offset * 2), h);
+            setTimeout(glitchImg, randInt(250, 1000));
+        }, 500);
+    };
+
+    var clear = function() {
+        context.rect(0, 0, w, h);
+        context.fillStyle = 'black';
+        context.fill();
+    };
+
+    var glitchImg = function() {
+        for (var i = 0; i < randInt(1, 13); i++) {
+            var x = Math.random() * w;
+            var y = Math.random() * h;
+            var spliceWidth = w - x;
+            var spliceHeight = randInt(5, h / 3);
+            context.drawImage(canvas, 0, y, spliceWidth, spliceHeight, x, y, spliceWidth, spliceHeight);
+            context.drawImage(canvas, spliceWidth, y, x, spliceHeight, 0, y, x, spliceHeight);
+        }
+    };
+
+    var randInt = function(a, b) {
+        return ~~(Math.random() * (b - a) + a);
+    };
+    </script>
+</body>
+
+</html>
