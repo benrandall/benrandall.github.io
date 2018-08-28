@@ -7,10 +7,8 @@ html {
 body {
     font-family: 'Kosugi';
     /*color: grey;*/
-    /*background-color: #f9f7f9;*/
+    background-color: white;
     margin: 0;
-    background-image: url("assets/mechtexture.jpg");
-    background-repeat: repeat-x;
 }
 
 h1 {
@@ -20,11 +18,15 @@ h1 {
 }
 
 .social-links {
-	font-size: 30px;
+    text-align: center;
 }
 
 .social-link {
-	color: black;
+    color: #ffffff;
+    text-shadow: 2px 2px #212421,
+    1px 1px #212021;
+    font-size: 40px;
+    margin-right: 10px;
 }
 
 .title {
@@ -88,10 +90,10 @@ div.box-blue {
 
 div.box-blue * {
     color: #eff1ff;
-    text-shadow: 2px 2px #212421,
-    1px 1px #212021;
+    text-shadow: 1px 1px #212021, 2px 2px #212421;
     font-weight: normal;
     margin: 7px 0;
+    text-decoration: none;
 }
 
 div.pipe-grey {
@@ -113,7 +115,20 @@ div.pipe-grey {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#04009d', endColorstr='#868686', GradientType=0);
 }
 
+div.box-crystals {
+    border: solid 1px #424542;
+    box-shadow: 1px 1px #e7dfe7, -1px -1px #e7dfe7, 1px -1px #e7dfe7, -1px 1px #e7dfe7, 0 -2px #9c9a9c, -2px 0 #7b757b, 0 2px #424542;
+    max-width: 500px;
+    padding: 0px 15px;
+    margin: 10px 0px;
+    background: black;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+}
+
 #crystals {
+    padding: 50px 15px;
     background: url(http://img.finalfantasyxiv.com/lds/promo/pc/global/images/world/what/crystal_01.png) repeat-y, url(http://img.finalfantasyxiv.com/lds/promo/pc/global/images/world/what/crystal_02.png) repeat-y, url(http://img.finalfantasyxiv.com/lds/promo/pc/global/images/world/what/crystal_03.png) repeat-y;
     -webkit-animation: background 45s linear infinite;
     animation: background 45s linear infinite;
@@ -135,4 +150,45 @@ div.pipe-grey {
     100% {
         background-position: 0 -900%, 0 -900%, 0 -2400%;
     }
+}
+
+.cursor {
+	position: relative;
+    right: 5px;
+    -webkit-animation: float 1s ease-in-out infinite;
+    animation: float 1s ease-in-out infinite;
+}
+
+@-webkit-keyframes float {
+    0% {
+        transform: translateX(10px);
+        -webkit-transform: translateX(10px);
+    }
+    50% {
+        transform: translateX(0px);
+        -webkit-transform: translateX(0px);
+    }
+    100% {
+        transform: translateX(10px);
+        -webkit-transform: translateX(10px);
+    }
+}
+
+@keyframes float {
+    0% {
+        transform: translateX(10px);
+        -webkit-transform: translateX(10px);
+    }
+    50% {
+        transform: translateX(0px);
+        -webkit-transform: translateX(0px);
+    }
+    100% {
+        transform: translateX(10px);
+        -webkit-transform: translateX(10px);
+    }
+}
+
+.footer {
+	margin-bottom: 2em;
 }
