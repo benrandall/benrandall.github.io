@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Kosugi');
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Kosugi';
+    /*color: grey;*/
+    /*background-color: #f9f7f9;*/
+    margin: 0;
+    background-image: url("assets/mechtexture.jpg");
+    background-repeat: repeat-x;
+}
+
+h1 {
+    background-image: url(assets/mechtexture.jpg);
+    background-repeat: repeat-x;
+    font-size: 2.5em;
+}
+
+.social-links {
+	font-size: 30px;
+}
+
+.social-link {
+	color: black;
+}
+
+.title {
+    margin-top: 0;
+    padding-top: 20px;
+}
+
+.navbar {
+    padding-top: 100px;
+}
+
+.wrapper {
+    min-height: 100%
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 0 10px;
+}
+
+div.box {
+    border-bottom: solid 1px #424542;
+    box-shadow: 1px 1px #e7dfe7, -1px -1px #e7dfe7, 1px -1px #e7dfe7, -1px 1px #e7dfe7, 0 -2px #9c9a9c, -2px 0 #7b757b, 0 2px #424542;
+    padding: 10px 15px;
+    background: #908ddc;
+    background: -moz-linear-gradient(top, #908ddc 0%, #06004d 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #908ddc), color-stop(100%, #06004d));
+    background: -webkit-linear-gradient(top, #908ddc 0%, #06004d 100%);
+    background: -o-linear-gradient(top, #908ddc 0%, #06004d 100%);
+    background: -ms-linear-gradient(top, #908ddc 0%, #06004d 100%);
+    background: linear-gradient(to bottom, #908ddc 0%, #06004d 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#04009d', endColorstr='#06004d', GradientType=0);
+}
+
+div.box * {
+    color: #eff1ff;
+    text-shadow: 2px 2px #212421,
+    1px 1px #212021;
+    font-weight: normal;
+}
+
+div.box-blue {
+    border: solid 1px #424542;
+    box-shadow: 1px 1px #e7dfe7, -1px -1px #e7dfe7, 1px -1px #e7dfe7, -1px 1px #e7dfe7, 0 -2px #9c9a9c, -2px 0 #7b757b, 0 2px #424542;
+    max-width: 500px;
+    padding: 10px 15px;
+    margin: 10px 0px;
+    background: #908ddc;
+    background: -moz-linear-gradient(top, #908ddc 0%, #06004d 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #908ddc), color-stop(100%, #06004d));
+    background: -webkit-linear-gradient(top, #908ddc 0%, #06004d 100%);
+    background: -o-linear-gradient(top, #908ddc 0%, #06004d 100%);
+    background: -ms-linear-gradient(top, #908ddc 0%, #06004d 100%);
+    background: linear-gradient(to bottom, #908ddc 0%, #06004d 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#04009d', endColorstr='#06004d', GradientType=0);
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+}
+
+div.box-blue * {
+    color: #eff1ff;
+    text-shadow: 2px 2px #212421,
+    1px 1px #212021;
+    font-weight: normal;
+    margin: 7px 0;
+}
+
+div.pipe-grey {
+    position: absolute;
+    z-index: -1;
+    border-left: solid 1px #424542;
+    border-right: solid 1px #424542;
+    box-shadow: 1px 1px #e7dfe7, -1px -1px #e7dfe7, 1px -1px #e7dfe7, -1px 1px #e7dfe7, 0 -2px #9c9a9c, -2px 0 #7b757b, 0 2px #424542;
+    max-width: 2px;
+    padding: 10px 15px;
+    margin-left: 15px;
+    background: #e4e3f1;
+    background: -moz-linear-gradient(left, #e4e3f1 0%, #868686 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e4e3f1), color-stop(100%, #868686));
+    background: -webkit-linear-gradient(left, #e4e3f1 0%, #868686 100%);
+    background: -o-linear-gradient(left, #e4e3f1 0%, #868686 100%);
+    background: -ms-linear-gradient(left, #e4e3f1 0%, #868686 100%);
+    background: linear-gradient(to right`, #e4e3f1 0%, #868686 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#04009d', endColorstr='#868686', GradientType=0);
+}
+
+#crystals {
+    background: url(http://img.finalfantasyxiv.com/lds/promo/pc/global/images/world/what/crystal_01.png) repeat-y, url(http://img.finalfantasyxiv.com/lds/promo/pc/global/images/world/what/crystal_02.png) repeat-y, url(http://img.finalfantasyxiv.com/lds/promo/pc/global/images/world/what/crystal_03.png) repeat-y;
+    -webkit-animation: background 45s linear infinite;
+    animation: background 45s linear infinite;
+}
+
+@-webkit-keyframes background {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 0 -900%, 0 -900%, 0 -2400%;
+    }
+}
+
+@keyframes background {
+    0% {
+        background-position: 0 0, 0 0, 0 0;
+    }
+    100% {
+        background-position: 0 -900%, 0 -900%, 0 -2400%;
+    }
+}
