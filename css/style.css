@@ -6,14 +6,11 @@ html {
 
 body {
     font-family: 'Kosugi';
-    /*color: grey;*/
     background-color: white;
     margin: 0;
 }
 
 h1 {
-    background-image: url(assets/mechtexture.jpg);
-    background-repeat: repeat-x;
     font-size: 2.5em;
 }
 
@@ -129,7 +126,7 @@ div.box-crystals {
 
 #crystals {
     padding: 50px 15px;
-    background: url(http://img.finalfantasyxiv.com/lds/promo/pc/global/images/world/what/crystal_01.png) repeat-y, url(http://img.finalfantasyxiv.com/lds/promo/pc/global/images/world/what/crystal_02.png) repeat-y, url(http://img.finalfantasyxiv.com/lds/promo/pc/global/images/world/what/crystal_03.png) repeat-y;
+    background: url(https://img.finalfantasyxiv.com/lds/promo/pc/global/images/world/what/crystal_01.png) repeat-y, url(https://img.finalfantasyxiv.com/lds/promo/pc/global/images/world/what/crystal_02.png) repeat-y, url(https://img.finalfantasyxiv.com/lds/promo/pc/global/images/world/what/crystal_03.png) repeat-y;
     -webkit-animation: background 45s linear infinite;
     animation: background 45s linear infinite;
 }
