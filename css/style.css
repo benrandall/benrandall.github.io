@@ -126,9 +126,10 @@ div.box-crystals {
 
 #crystals {
     padding: 50px 15px;
-    background: url(https://img.finalfantasyxiv.com/lds/promo/pc/global/images/world/what/crystal_01.png) repeat-y, url(https://img.finalfantasyxiv.com/lds/promo/pc/global/images/world/what/crystal_02.png) repeat-y, url(https://img.finalfantasyxiv.com/lds/promo/pc/global/images/world/what/crystal_03.png) repeat-y;
-    -webkit-animation: background 45s linear infinite;
-    animation: background 45s linear infinite;
+    background: url(../assets/crystal_01.png) repeat-y, url(../assets/crystal_02.png) repeat-y;
+    background-position: center; 
+    -webkit-animation: background 100s linear infinite;
+    animation: background 100s linear infinite;
 }
 
 @-webkit-keyframes background {
