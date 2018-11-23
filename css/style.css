@@ -148,6 +148,10 @@ div.box-crystals {
     border-radius: 7px;
 }
 
+div.box-wide {
+    max-width: 700px;
+}
+
 #crystals {
     padding: 50px 15px;
     background: url(../assets/crystal_01.png) repeat-y, url(../assets/crystal_02.png) repeat-y;
@@ -209,6 +213,10 @@ div.box-crystals {
         transform: translateX(10px);
         -webkit-transform: translateX(10px);
     }
+}
+
+img {
+    max-width: 100%;
 }
 
 .footer {
