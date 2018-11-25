@@ -1,11 +1,16 @@
-@import url('https://fonts.googleapis.com/css?family=Kosugi');
+/*@import url('https://fonts.googleapis.com/css?family=Kosugi');*/
+/*@import url('https://fonts.googleapis.com/css?family=Cutive+Mono');*/
+/*@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');*/
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin');
+
 
 html {
     height: 100%;
 }
 
 body {
-    font-family: 'Kosugi';
+    /*font-family: 'Open Sans Condensed', sans-serif;*/
+    font-family: 'Libre Franklin', sans-serif;
     background: white;
     margin: 0;
 }
