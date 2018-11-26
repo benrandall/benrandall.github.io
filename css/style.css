@@ -122,6 +122,10 @@ div.box-white * {
     text-decoration: none;
 }
 
+div.box-white p {
+    line-height: 1.5;
+}
+
 div.pipe-grey {
     position: absolute;
     z-index: -1;
@@ -233,6 +237,18 @@ div.box-wide {
 
 img {
     max-width: 100%;
+}
+
+.fill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+.fill img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
 }
 
 .footer {
