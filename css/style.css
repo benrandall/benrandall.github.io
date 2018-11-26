@@ -60,13 +60,13 @@ div.box {
     background: -o-linear-gradient(top, #908ddc 0%, #06004d 100%);
     background: -ms-linear-gradient(top, #908ddc 0%, #06004d 100%);
     background: linear-gradient(to bottom, #908ddc 0%, #06004d 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#04009d', endColorstr='#06004d', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#04009d', endColorstr='#06004d', GradientType=0);
 }
 
 div.box * {
     color: #eff1ff;
     text-shadow: 2px 2px #212421,
-    1px 1px #212021;
+        1px 1px #212021;
     font-weight: normal;
 }
 
@@ -83,7 +83,7 @@ div.box-blue {
     background: -o-linear-gradient(top, #908ddc 0%, #06004d 100%);
     background: -ms-linear-gradient(top, #908ddc 0%, #06004d 100%);
     background: linear-gradient(to bottom, #908ddc 0%, #06004d 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#04009d', endColorstr='#06004d', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#04009d', endColorstr='#06004d', GradientType=0);
     -webkit-border-radius: 7px;
     -moz-border-radius: 7px;
     border-radius: 7px;
@@ -110,7 +110,7 @@ div.box-white {
     background: -o-linear-gradient(top, #ffffff 0%, #ffffff 100%);
     background: -ms-linear-gradient(top, #ffffff 0%, #ffffff 100%);
     background: linear-gradient(to bottom, #ffffff 0%, #ffffff 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#04009d', endColorstr='#06004d', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#04009d', endColorstr='#06004d', GradientType=0);
     -webkit-border-radius: 7px;
     -moz-border-radius: 7px;
     border-radius: 7px;
@@ -138,7 +138,7 @@ div.pipe-grey {
     background: -o-linear-gradient(left, #e4e3f1 0%, #868686 100%);
     background: -ms-linear-gradient(left, #e4e3f1 0%, #868686 100%);
     background: linear-gradient(to right`, #e4e3f1 0%, #868686 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#04009d', endColorstr='#868686', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#04009d', endColorstr='#868686', GradientType=0);
 }
 
 div.box-crystals {
@@ -165,10 +165,16 @@ div.box-wide {
     animation: background 100s linear infinite;
 }
 
+#headshot {
+    background: url(../assets/headshot.jpg) repeat-y, url(../assets/crystal_02.png) repeat-y;
+    background-position: center;
+}
+
 @-webkit-keyframes background {
     0% {
         background-position: 0 0;
     }
+
     100% {
         background-position: 0 -900%, 0 -900%, 0 -2400%;
     }
@@ -178,6 +184,7 @@ div.box-wide {
     0% {
         background-position: 0 0, 0 0, 0 0;
     }
+
     100% {
         background-position: 0 -900%, 0 -900%, 0 -2400%;
     }
@@ -195,10 +202,12 @@ div.box-wide {
         transform: translateX(10px);
         -webkit-transform: translateX(10px);
     }
+
     50% {
         transform: translateX(0px);
         -webkit-transform: translateX(0px);
     }
+
     100% {
         transform: translateX(10px);
         -webkit-transform: translateX(10px);
@@ -210,10 +219,12 @@ div.box-wide {
         transform: translateX(10px);
         -webkit-transform: translateX(10px);
     }
+
     50% {
         transform: translateX(0px);
         -webkit-transform: translateX(0px);
     }
+
     100% {
         transform: translateX(10px);
         -webkit-transform: translateX(10px);
