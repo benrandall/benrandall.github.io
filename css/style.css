@@ -239,12 +239,21 @@ img {
     max-width: 100%;
 }
 
+/*.music img:hover {
+    background: url('http://dl9.glitter-graphics.net/pub/80/80039njfma9svnd.gif');
+}*/
+
+.music {
+    text-align: center;
+}
+
 .fill {
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden
 }
+
 .fill img {
     flex-shrink: 0;
     min-width: 100%;
