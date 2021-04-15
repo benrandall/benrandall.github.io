@@ -1,8 +1,5 @@
-<<<<<<< Updated upstream
 _site/
 .DS_Store
-=======
 node_modules/
 .cache/
 public
->>>>>>> Stashed changes

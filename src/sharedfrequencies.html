@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Benjamin Randall">
+    <title>Benjamin Randall</title>
+    <script src="https://kit.fontawesome.com/cb2474cd1e.js" crossorigin="anonymous"></script>
+    <link href="css/grid.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="icon" href="assets/sparkles.ico">
+</head>
+
+<body>
+    <!-- Header -->
+    <section>
+        <div class="navbar box">
+            <div class="container">
+                <h1><a style="text-decoration: none;" href="index.html">Benjamin Randall</a></h1>
+            </div>
+        </div>
+    </section>
+    <!-- Header -->
+    <section>
+        <div class="container">
+            <h2>Shared Frequencies</h2>
+            <div>
+                <hr />
+            </div>
+        </div>
+    </section>
+    <!-- Blog -->
+    <section>
+        <div class="container">
+            <div class="box-white box-wide">
+                <p>Shared Frequencies is an online community radio station started in early 2019 in Austin. We mostly stream local DJs, but also host multiple other artists as well.</p>
+                <p style="text-align: center;">
+                    <img src="assets/sf_studio.jpg"></img>
+                </p>
+                <p>My roles include technical expert, creative director, graphic artist, and much more. Shared Frequencies has become a catch-all creative outlet for me in the past year.</p>
+                <div class="pipe-grey"></div>
+            </div>
+            <div class="box-white box-wide">
+                <p><i>Technical Design</i></p>
+                <p>Before I could get too creative, I had to design the studio space and the signal flow.</p>
+                <p style="text-align: center;">
+                    <img src="assets/sf_diagram.png"></img>
+                </p>
+                <p>The audio and video run into a PC. The PC runs TouchDesigner, realtime visual processing software, and OBS, a streaming software. The live video streams to our Facebook, Twitch, YouTube, and website.</p>
+                <div class="pipe-grey"></div>
+            </div>
+            <div class="box-white box-wide">
+                <p><i>Streams</i></p>
+                <p>We invite DJs on the stream for monthly residencies. In the video below, I stream with my fellow label-owner Dreamgoth for our Helldotcom residency.</p>
+                <div style="padding:56.25% 0 0 0;position:relative;">
+                    <iframe src="https://player.vimeo.com/video/378925164?color=ffffff&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
+                    </iframe>
+                </div>
+                <b/>
+                <p>In this stream, I am doing some extreme video processing that isn't typical for Shared Frequencies. However, since it was my stream I decided to experiment a bit.</p>
+                <div class="pipe-grey"></div>
+            </div>
+            <div class="box-white box-wide">
+                <p><i>LED Wall</i></p>
+                <p>During the summer of 2019, I had a creative itch to build something physical. I saw George Clanton play a show a few weeks before, and while he was great, I was mesmerized by the LED wall behind him. An LED wall is nothing novel, but what I noticed is that it was built on cloth material with two easy stands so he could tour around with it. I got the chance to talk to him after the show, but he was secretive about the details of the wall.</p>
+                <p style="text-align: center;">
+                    <img src="assets/georgeclanton.jpg"></img>
+                </p>
+                <p>I decided this would make for an interesting research project. My initial plan was to run TouchDesigner through an Arduino board. After some experimenting, I was determined I could make interesting visuals work on the limited resolution.</p>
+                <p style="text-align: center;">
+                    <img src="assets/ledwall_td.gif"></img>
+                </p>
+                <p>I planned out the physical design and it took me a few days to put together. I programmed some "default" visuals on the wall for a few Shared Frequencies streams.</p>
+                <div style="position:relative;">
+                    <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FSharedFrequenciesRadio%2Fvideos%2F387806718751607%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+                </div>
+                <p>Unfortunately, I eventually realized that the Arduino board I didn't have the bandwidth to support the data from TouchDesigner quick enough, so the project has been shelved for now.</p>
+            </div>
+        </div>
+    </section>
+    <!-- Contact -->
+    <section>
+        <div class="container">
+            <h2>Contact</h2>
+            <div class="box-crystals box-wide">
+                <div class="social-links" id="crystals">
+                    <img class="cursor" src="assets/Cursor2.png">
+                    <a class="social-link" href="mailto:bengr35@gmail.com" target="_blank"><i class="fas fa-envelope-square"></i></a>
+                    <a class="social-link" href="https://www.linkedin.com/in/benjamin-randall-ba3a55104/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a class="social-link" href="https://github.com/benrandall" target="_blank"><i class="fab fa-github-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="footer">
+            <div class="container">
+                <p class="text-muted small mb-0">✨ Benjamin Randall 2018 - 2020 ✨</p>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
