@@ -1,0 +1,2 @@
+(self.webpackChunkben_randall=self.webpackChunkben_randall||[]).push([[678],{7704:function(e,n,a){"use strict";a.r(n);var l=a(7294);n.default=function(){return l.createElement("div",null,l.createElement("div",{className:"container"},"Ben Randall - website under construction :)"))}}}]);
+//# sourceMappingURL=component---src-pages-index-js-0faa83f665b8a24278c7.js.map
