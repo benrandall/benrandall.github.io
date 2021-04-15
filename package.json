@@ -1,0 +1,33 @@
+{
+  "name": "ben-randall",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Ben Randall",
+  "author": "Benjamin Randall",
+  "homepage": "https://benrandall.github.io",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "deploy": "gatsby build && gh-pages -d public -b main"
+  },
+  "dependencies": {
+    "gatsby": "^3.2.1",
+    "gatsby-plugin-image": "^1.3.0",
+    "gatsby-plugin-manifest": "^3.3.0",
+    "gatsby-plugin-sharp": "^3.3.0",
+    "gatsby-plugin-sitemap": "^3.3.0",
+    "gatsby-source-filesystem": "^3.3.0",
+    "gatsby-transformer-sharp": "^3.3.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
