@@ -9,13 +9,11 @@
     "gatsby"
   ],
   "scripts": {
-    "predeploy": "npm run build",
     "develop": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "deploy": "gh-pages -b master -d build"
+    "clean": "gatsby clean"
   },
   "dependencies": {
     "gatsby": "^3.2.1",
