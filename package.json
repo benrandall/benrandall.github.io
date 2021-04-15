@@ -4,15 +4,18 @@
   "private": true,
   "description": "Ben Randall",
   "author": "Benjamin Randall",
+  "homepage": "https://benrandall.github.io",
   "keywords": [
     "gatsby"
   ],
   "scripts": {
+    "predeploy": "npm run build",
     "develop": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "deploy": "gh-pages -b master -d build"
   },
   "dependencies": {
     "gatsby": "^3.2.1",
