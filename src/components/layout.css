@@ -167,7 +167,7 @@ div.box-white {
     margin: 15px 0px 0px 0px;
     background: #ffffff;
     background: -moz-linear-gradient(top, #ffffff 0%, #ffffff 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #ffffff));
+    /* background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #ffffff)); */
     background: -webkit-linear-gradient(top, #ffffff 0%, #ffffff 100%);
     background: -o-linear-gradient(top, #ffffff 0%, #ffffff 100%);
     background: -ms-linear-gradient(top, #ffffff 0%, #ffffff 100%);
@@ -199,12 +199,12 @@ div.pipe-grey {
     margin-left: 15px;
     background: #e4e3f1;
     background: -moz-linear-gradient(left, #e4e3f1 0%, #868686 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e4e3f1), color-stop(100%, #868686));
-    background: -webkit-linear-gradient(left, #e4e3f1 0%, #868686 100%);
+    /* background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e4e3f1), color-stop(100%, #868686)); */
+    /* background: -webkit-linear-gradient(left, #e4e3f1 0%, #868686 100%);
     background: -o-linear-gradient(left, #e4e3f1 0%, #868686 100%);
     background: -ms-linear-gradient(left, #e4e3f1 0%, #868686 100%);
-    background: linear-gradient(to right`, #e4e3f1 0%, #868686 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#04009d', endColorstr='#868686', GradientType=0);
+    background: linear-gradient(to right`, #e4e3f1 0%, #868686 100%); */
+    /* filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#04009d', endColorstr='#868686', GradientType=0); */
 }
 
 div.box-crystals {
@@ -227,8 +227,8 @@ div.box-wide {
     padding: 50px 15px;
     background: url(../assets/crystal_01.png) repeat-y, url(../assets/crystal_02.png) repeat-y;
     background-position: center;
-    -webkit-animation: background 200s linear infinite;
-    animation: background 200s linear infinite;
+    /* -webkit-animation: background 200s linear infinite;
+    animation: background 200s linear infinite; */
 }
 
 #headshot {
