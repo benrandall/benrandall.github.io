@@ -1,0 +1,2 @@
+(self.webpackChunkben_randall=self.webpackChunkben_randall||[]).push([[25],{8994:function(e,n,l){"use strict";l.r(n);var t=l(7294),a=(l(5444),l(8283));n.default=function(){return t.createElement(a.Z,null,"Portfolio time")}}}]);
+//# sourceMappingURL=component---src-pages-portfolio-js-6f559206610d51390d65.js.map
