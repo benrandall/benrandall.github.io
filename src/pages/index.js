@@ -76,11 +76,16 @@ function Home () {
             </Container>
             <br/>
             <Container className="credits-container">
-                    <h2>Recent Credits</h2>
-                    <p><b>Chlorobo (2021)</b> - Creative Director, Media Designer, Web Designer</p>
-                    <p><b>Eyes On The Sky: XR Teaser (2021)</b> - Media Designer, TouchDesigner Engineer</p>
-                    <p><b>La Ruta (2020)</b> - Systems Engineer, TouchDesigner Engineer</p>
-                    <p><b>In The Ether (2021)</b> - Experience Designer, Web Designer, Video Editor, Media Designer</p>
+                <h2>Recent Credits</h2>
+                <p><b>Chlorobo (2021)</b> - Creative Director, Media Designer, Web Designer</p>
+                <p><b>Eyes On The Sky: XR Teaser (2021)</b> - Media Designer, TouchDesigner Engineer</p>
+                <p><b>La Ruta (2020)</b> - Systems Engineer, TouchDesigner Engineer</p>
+                <p><b>In The Ether (2021)</b> - Experience Designer, Web Designer, Video Editor, Media Designer</p>
+            </Container>
+            <br/>
+            <Container className="credits-container">
+                <h2>Generative Art</h2>
+                <p>Visit my <a href="https://www.instagram.com/beng.r/" target="_blank" rel="noreferrer">Instagram</a> for explorations in generative art.</p>
             </Container>
             <br/>
             <Container>

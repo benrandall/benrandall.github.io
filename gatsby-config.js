@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: "Ben Randall",
+    description: "👁",
     menuLinks:[
       {
         name:'home',
