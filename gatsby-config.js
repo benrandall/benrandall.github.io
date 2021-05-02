@@ -26,6 +26,14 @@ module.exports = {
         name:'sharedfrequencies',
         link:'/sharedfrequencies'
       },
+      {
+        name:'intheether',
+        link:'/intheether'
+      },
+      {
+        name:'desertrose',
+        link:'/desertrose'
+      },
     ]
   },
   plugins: [

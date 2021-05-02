@@ -9,13 +9,15 @@ import { faInstagramSquare, faLinkedin, faGithubSquare } from '@fortawesome/free
 import './index.css';
 
 
-import profilePic from "../images/headshot-6.jpg"
+import profilePic from "../images/Swirl14-red5.png"
 import cursor from "../images/Cursor2.png"
 
 import pfChlorobo from "../images/flyer-1.png"
 import pfLaRuta from "../images/laRuta.png"
 import pfStaticPillars from "../images/staticPillars.png"
 import pfSharedFrequencies from "../images/sfstudio.png"
+import pfInTheEther from "../images/intheether.png"
+import pfDesertRose from "../images/desertrose.png"
 
 // markup
 function Home () {
@@ -25,8 +27,9 @@ function Home () {
                 <ReactPlayer className="header-player" url="https://player.vimeo.com/video/537410608?badge=0&amp;autopause=0&amp;player_id=0" height="100%" width="100%" controls={false} muted={true} playing={true} loop={true} playsinline/>
                 <Row>
                     <Col lg="2" className="fill box header-box-1">
-                        <p className="sparkle-line-white sl-top">┈⛧┈❀✧❀┈⛧┈</p>
+                        {/* <p className="sparkle-line sl-top">┈⛧┈❀✧❀┈⛧┈</p> */}
                         <img className="profile-pic" src={profilePic}/>
+                        {/* <p className="sparkle-line sl-bottom">┈⛧┈✧✿✧┈⛧┈</p> */}
                     </Col>
                 </Row>
                 <Row>
@@ -40,7 +43,7 @@ function Home () {
                 <Row>
                     <Col lg="2" className="box header-box-3 fill">
                         <div className="header-text">
-                            <p>Below are some experiences and projects I found valuable.</p>
+                            <p>I specialize in interactive installations, live events, and creative coding.</p>
                         </div>
                         <p className="sparkle-line sl-bottom">┈⛧┈✧✿✧┈⛧┈</p>
                     </Col>
@@ -56,21 +59,30 @@ function Home () {
                         <Link className="fill" to="/laruta/"><img src={pfLaRuta}/><h2>La Ruta</h2></Link>
                     </Col>
                     <Col className="fill box-portfolio">
-                        <Link className="fill" to="/staticpillars/"><img src={pfStaticPillars}/><h2>Static Pillars</h2></Link>
+                        <Link className="fill" to="/intheether/"><img src={pfInTheEther}/><h2>In The Ether</h2></Link>
                     </Col>
                 </Row>
                 <Row>
                     <Col className="fill box-portfolio">
-                        <Link className="fill" to="/sharedfrequencies/"><img src={pfSharedFrequencies}/><h2>Shared Frequencies</h2></Link>
+                        <Link className="fill" to="/desertrose/"><img src={pfDesertRose}/><h2>Desert Rose</h2></Link>
                     </Col>
                     <Col className="fill box-portfolio">
-                        <Link className="fill" to="/laruta/"><img src={pfLaRuta}/><h2>La Ruta</h2></Link>
+                        <Link className="fill" to="/sharedfrequencies/"><img src={pfSharedFrequencies}/><h2>Shared Frequencies</h2></Link>
                     </Col>
                     <Col className="fill box-portfolio">
                         <Link className="fill" to="/staticpillars/"><img src={pfStaticPillars}/><h2>Static Pillars</h2></Link>
                     </Col>
                 </Row>
             </Container>
+            <br/>
+            <Container className="credits-container">
+                    <h2>Recent Credits</h2>
+                    <p><b>Chlorobo (2021)</b> - Creative Director, Media Designer, Web Designer</p>
+                    <p><b>Eyes On The Sky: XR Teaser (2021)</b> - Media Designer, TouchDesigner Engineer</p>
+                    <p><b>La Ruta (2020)</b> - Systems Engineer, TouchDesigner Engineer</p>
+                    <p><b>In The Ether (2021)</b> - Experience Designer, Web Designer, Video Editor, Media Designer</p>
+            </Container>
+            <br/>
             <Container>
                 <h2>Contact Me</h2>
                 <p>I regularly check my email at <a href="mailto:bengr35@gmail.com" target="_blank" rel="noreferrer">bengr35@gmail.com</a></p>

@@ -1,7 +1,7 @@
 .video-header {
     position: relative;
     height: 75vh;
-    min-height: 25rem;
+    min-height: 640px;
     width: 100%;
     /* overflow: visible; */
     /* border: 2px grey solid; border temp */
@@ -272,6 +272,10 @@ div.box {
 
 .center {
     text-align: center;
+}
+
+.credits-container h2 {
+    margin-bottom: 1rem;
 }
 
 .blog-container img {
