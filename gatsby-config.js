@@ -35,11 +35,16 @@ module.exports = {
         name:'desertrose',
         link:'/desertrose'
       },
+      {
+        name:'portfolioreview',
+        link:'/portfolioreview'
+      },
     ]
   },
   plugins: [
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
+    "gatsby-plugin-react-helmet",
     "gatsby-transformer-sharp",
     {
       resolve: "gatsby-source-filesystem",
