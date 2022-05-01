@@ -1,10 +1,11 @@
 import * as React from "react";
 import Layout from "../components/layout";
 
-import chloroboss1 from "../images/chlorobo/chloroboss1.png";
-import chloroboss2 from "../images/chlorobo/chloroboss2.png";
-import chloroboss3 from "../images/chlorobo/chloroboss3.png";
-import chloroboss4 from "../images/chlorobo/chloroboss4.png";
+import amag1 from "../images/amag/amag1.jpg";
+import amag2 from "../images/amag/amag2.jpg";
+import amag3 from "../images/amag/amag3.jpg";
+import amag4 from "../images/amag/amag4.jpg";
+import amag5 from "../images/amag/amag5.jpg";
 
 // markup
 function Amag () {
@@ -12,13 +13,13 @@ function Amag () {
         <Layout>
             <h1>A Million Alien Gospels</h1>
             <div className="blog-container">
-                <p>In <i>Chlorobo</i>, we explore what it means to be human through a series of poems, puzzles, and musical pieces.</p>
-                <p>After conceptualizing the project, I worked primarily as creative director, artist, programmer, and team lead.</p>
-                <p>View the project <a href="https://chlorobo.com" target="_blank" rel="noopener">here</a>.</p>
-                <div className="center"><img className="chlorobo-pic" src={chloroboss4}/></div>
-                <div className="center"><img className="chlorobo-pic" src={chloroboss1}/></div>
-                <div className="center"><img className="chlorobo-pic" src={chloroboss2}/></div>
-                <div className="center"><img className="chlorobo-pic" src={chloroboss3}/></div>
+                <p>2022 - Integrated Media Design</p>
+                <div className="center"><img className="chlorobo-pic" src={amag5}/></div>
+                <div className="center"><img className="chlorobo-pic" src={amag1}/></div>
+                <div className="center"><img className="chlorobo-pic" src={amag2}/></div>
+                <div className="center"><img className="chlorobo-pic" src={amag3}/></div>
+                <p>Costumes - Aaron Kubachek</p>
+                <p>Lighting - Sarah Jean Elliot</p>
             </div>
         </Layout>
     )

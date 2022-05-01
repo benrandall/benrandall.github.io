@@ -7,12 +7,10 @@ import chloroboss4 from "../images/chlorobo/chloroboss4.png";
 function Bcbf () {
     return (
         <Layout>
-            <h1>Bee Cave Buzz Fest - Arcos Dance</h1>
+            <h1>Bee Cave BuzzFest - Arcos Dance</h1>
             <div className="blog-container">
-                <p>copy for arcos dance</p>
-                <p>View the project <a href="https://chlorobo.com" target="_blank" rel="noopener">here</a>.</p>
+                <p>Video engineering and automation for Arcos Dance's piece at Bee Cave BuzzFest 2022. Buzzfest is an award-winning annual tech-art festival featuring nationally acclaimed electronic music performers and immersive light and sound art installations.</p>
                 <div className="center"><img className="chlorobo-pic" src={chloroboss4}/></div>
-
             </div>
         </Layout>
     )

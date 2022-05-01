@@ -24,6 +24,10 @@ module.exports = {
         link:'/bcbf'
       },
       {
+        name:'ffd',
+        link:'/ffd'
+      },
+      {
         name:'chlorobo',
         link:'/chlorobo'
       },

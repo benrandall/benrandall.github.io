@@ -12,9 +12,9 @@ import './index.css';
 import profilePic from "../images/Swirl14-red5.png"
 import cursor from "../images/Cursor2.png"
 
-import pfAmag from "../images/flyer-1.png"
-import pfKaiser from "../images/flyer-1.png"
-import pfBcbf from "../images/flyer-1.png"
+import pfAmag from "../images/amag.jpg"
+import pfKaiser from "../images/kaiser.jpg"
+import pfFfd from "../images/ffd.jpg"
 import pfChlorobo from "../images/flyer-1.png"
 import pfLaRuta from "../images/laRuta.png"
 import pfStaticPillars from "../images/staticPillars.png"
@@ -62,7 +62,7 @@ function Home () {
                         <Link className="fill" to="/kaiser/"><img src={pfKaiser}/><h2>Der Kaiser Von Atlantis</h2></Link>
                     </Col>
                     <Col className="fill box-portfolio">
-                        <Link className="fill" to="/bcbf/"><img src={pfBcbf}/><h2>Bee Cave Buzz Fest</h2></Link>
+                        <Link className="fill" to="/ffd/"><img src={pfFfd}/><h2>Fall For Dance</h2></Link>
                     </Col>
                 </Row>
                 <Row>
@@ -91,10 +91,15 @@ function Home () {
             <br/>
             <Container className="credits-container">
                 <h2>Recent Credits</h2>
+                <p><b>Fusebox Festival (2022)</b> - Integrated Media Designer, Video Engineer</p>
+                <p><b>A Million Alien Gospels (2022)</b> - Integrated Media Designer</p>
+                <p><b>Bee Cave BuzzFest (2022)</b> - Integrated Media Designer, Video Engineer</p>
+                <p><b>Der Kaiser Von Atlantis (2022)</b> - Integrated Media Designer</p>
+                <p><b>Fall For Dance (2021)</b> - Integrated Media Designer, Video Engineer</p>
                 <p><b>Chlorobo (2021)</b> - Creative Director, Media Designer, Web Designer</p>
                 <p><b>Eyes On The Sky: XR Teaser (2021)</b> - Media Designer, TouchDesigner Engineer</p>
-                <p><b>La Ruta (2020)</b> - Systems Engineer, TouchDesigner Engineer</p>
                 <p><b>In The Ether (2021)</b> - Experience Designer, Web Designer, Video Editor, Media Designer</p>
+                <p><b>La Ruta (2020)</b> - Systems Engineer, TouchDesigner Engineer</p>
             </Container>
             <br/>
             <Container className="credits-container">
