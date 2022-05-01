@@ -24,6 +24,10 @@ module.exports = {
         link:'/bcbf'
       },
       {
+        name:'fusebox',
+        link:'/fusebox'
+      },
+      {
         name:'ffd',
         link:'/ffd'
       },
