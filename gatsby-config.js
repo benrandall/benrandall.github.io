@@ -12,6 +12,18 @@ module.exports = {
         link:'/portfolio'
       },
       {
+        name:'amag',
+        link:'/amag'
+      },
+      {
+        name:'kaiser',
+        link:'/kaiser'
+      },
+      {
+        name:'bcbf',
+        link:'/bcbf'
+      },
+      {
         name:'chlorobo',
         link:'/chlorobo'
       },

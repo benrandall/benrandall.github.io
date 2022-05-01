@@ -12,6 +12,9 @@ import './index.css';
 import profilePic from "../images/Swirl14-red5.png"
 import cursor from "../images/Cursor2.png"
 
+import pfAmag from "../images/flyer-1.png"
+import pfKaiser from "../images/flyer-1.png"
+import pfBcbf from "../images/flyer-1.png"
 import pfChlorobo from "../images/flyer-1.png"
 import pfLaRuta from "../images/laRuta.png"
 import pfStaticPillars from "../images/staticPillars.png"
@@ -51,6 +54,17 @@ function Home () {
             </Container>
             <Container>
                 <h2>Selected Work</h2>
+                <Row>
+                    <Col className="fill box-portfolio">
+                        <Link className="fill" to="/amag/"><img src={pfAmag}/><h2>A Million Alien Gospels</h2></Link>
+                    </Col>
+                    <Col className="fill box-portfolio">
+                        <Link className="fill" to="/kaiser/"><img src={pfKaiser}/><h2>Der Kaiser Von Atlantis</h2></Link>
+                    </Col>
+                    <Col className="fill box-portfolio">
+                        <Link className="fill" to="/bcbf/"><img src={pfBcbf}/><h2>Bee Cave Buzz Fest</h2></Link>
+                    </Col>
+                </Row>
                 <Row>
                     <Col className="fill box-portfolio">
                         <Link className="fill" to="/chlorobo/"><img src={pfChlorobo}/><h2>Chlorobo</h2></Link>
