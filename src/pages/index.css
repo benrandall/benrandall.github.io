@@ -7,6 +7,21 @@
     /* border: 2px grey solid; border temp */
   }
 
+.fade-in {
+    animation: fadeInAnimation ease 10s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+  
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
 .video-header .header-player {
     position: absolute;
     top: 50%;

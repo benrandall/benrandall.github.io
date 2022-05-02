@@ -27,7 +27,7 @@ function Home () {
     return (
         <Layout>
             <Container className="video-header">
-                <ReactPlayer className="header-player" url="https://player.vimeo.com/video/537410608?badge=0&amp;autopause=0&amp;player_id=0" height="100%" width="100%" controls={false} muted={true} playing={true} loop={true} playsinline/>
+                <ReactPlayer className="header-player fade-in" url="https://player.vimeo.com/video/537410608?badge=0&amp;autopause=0&amp;player_id=0" height="100%" width="100%" controls={false} muted={true} playing={true} loop={true} playsinline/>
                 <Row>
                     <Col lg="2" className="fill box header-box-1">
                         {/* <p className="sparkle-line sl-top">┈⛧┈❀✧❀┈⛧┈</p> */}
