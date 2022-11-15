@@ -14,12 +14,12 @@ function Amag () {
             <h1>A Million Alien Gospels</h1>
             <div className="blog-container">
                 <p>2022 - Integrated Media Design</p>
+                <p className="no-margin">Lighting Design: Sarah Jean Elliot</p>
+                <p>Costume Design: Aaron Kubacak</p>
                 <div className="center"><img className="chlorobo-pic" src={amag5}/></div>
                 <div className="center"><img className="chlorobo-pic" src={amag1}/></div>
                 <div className="center"><img className="chlorobo-pic" src={amag2}/></div>
                 <div className="center"><img className="chlorobo-pic" src={amag3}/></div>
-                <p>Costumes - Aaron Kubachek</p>
-                <p>Lighting - Sarah Jean Elliot</p>
             </div>
         </Layout>
     )

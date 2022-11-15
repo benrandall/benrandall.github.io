@@ -1,6 +1,6 @@
 .video-header {
     position: relative;
-    height: 75vh;
+    height: 60vh;
     min-height: 640px;
     width: 100%;
     /* overflow: visible; */
@@ -26,8 +26,8 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 95vw!important;
-    height: 95vw!important;
+    width: 100vw!important;
+    height: 100vw!important;
     min-width: 80%;
     min-height: 80%;
     z-index: -1;
@@ -81,6 +81,10 @@
 
 .header-text p {
     margin-bottom: 0;
+}
+
+.no-margin {
+    margin-bottom: 0px;
 }
 
 div.box {
@@ -304,7 +308,7 @@ div.box {
 }
 
 .blog-container p {
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
 }
 
 .sp-blog-post {

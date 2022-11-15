@@ -29,14 +29,14 @@ function Home () {
             <Container className="video-header">
                 <ReactPlayer className="header-player fade-in" url="https://player.vimeo.com/video/537410608?badge=0&amp;autopause=0&amp;player_id=0" height="100%" width="100%" controls={false} muted={true} playing={true} loop={true} playsinline/>
                 <Row>
-                    <Col lg="2" className="fill box header-box-1">
+                    <Col lg="3" className="fill box header-box-1">
                         {/* <p className="sparkle-line sl-top">┈⛧┈❀✧❀┈⛧┈</p> */}
                         <img className="profile-pic" src={profilePic}/>
                         {/* <p className="sparkle-line sl-bottom">┈⛧┈✧✿✧┈⛧┈</p> */}
                     </Col>
                 </Row>
                 <Row>
-                    <Col lg="2" className="box header-box-2 fill">
+                    <Col lg="3" className="box header-box-2 fill">
                         <p className="sparkle-line sl-top">┈⛧┈❀✧❀┈⛧┈</p>
                         <div className="header-text">
                             <p>Hi, my name is Ben and I like art, music, technology, and new experiences.</p>
@@ -44,9 +44,9 @@ function Home () {
                     </Col>
                 </Row>
                 <Row>
-                    <Col lg="2" className="box header-box-3 fill">
+                    <Col lg="3" className="box header-box-3 fill">
                         <div className="header-text">
-                            <p>I specialize in interactive installations, live events, and creative coding.</p>
+                            <p>My work explores generative art, transmedia storytelling, live music, and community.</p>
                         </div>
                         <p className="sparkle-line sl-bottom">┈⛧┈✧✿✧┈⛧┈</p>
                     </Col>

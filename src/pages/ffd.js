@@ -15,6 +15,8 @@ function Bcbf () {
             <h1>Fall For Dance</h1>
             <div className="blog-container">
                 <p>2021 - Immersive projection design for Fall For Dance. Media design for three unique dance pieces. Experimentation with AI video as it relates to live audio and dance.</p>
+                <p className="no-margin">Lighting Design: </p>
+                <p>Costume Design: Katie Miller</p>
                 <div className="center"><img className="chlorobo-pic" src={ffd1}/></div>
                 <div className="center"><img className="chlorobo-pic" src={ffd2}/></div>
                 <div className="center"><img className="chlorobo-pic" src={ffd4}/></div>
