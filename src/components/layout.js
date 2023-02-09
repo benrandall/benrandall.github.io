@@ -10,7 +10,7 @@ export default function Layout({ children }) {
 		<Container className="layout-container">
 			<Helmet>
           		<meta charSet="utf-8" />
-          		<title>Ben Randall</title>
+          		<title>bengr.studio</title>
           		<link rel="canonical" href="http://benrandall.me" />
         	</Helmet>
 			<Navbar expand="lg">
@@ -25,7 +25,7 @@ export default function Layout({ children }) {
 			</Navbar>
 			{children}
 			<div className="footer">
-				<p>✨ BENG.R 2023 ✨</p>
+				<p>✨ beng.r 2023 ✨</p>
 			</div>
 		</Container>
 	)
