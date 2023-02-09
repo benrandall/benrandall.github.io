@@ -14,7 +14,7 @@ export default function Layout({ children }) {
           		<link rel="canonical" href="http://benrandall.me" />
         	</Helmet>
 			<Navbar expand="lg">
-				<Navbar.Brand>Ben Randall ✨</Navbar.Brand>
+				<Navbar.Brand>beng.r✨</Navbar.Brand>
 				<Navbar.Toggle aria-controls="basic-navbar-nav" />
 				<Navbar.Collapse id="basic-navbar-nav">
 					<Nav as="ul" className="ml-auto">
@@ -25,7 +25,7 @@ export default function Layout({ children }) {
 			</Navbar>
 			{children}
 			<div className="footer">
-				<p>✨ Benjamin Randall 2021 ✨</p>
+				<p>✨ BENG.R 2023 ✨</p>
 			</div>
 		</Container>
 	)
