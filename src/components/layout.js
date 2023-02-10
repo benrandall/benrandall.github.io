@@ -10,22 +10,16 @@ export default function Layout({ children }) {
 		<Container className="layout-container">
 			<Helmet>
           		<meta charSet="utf-8" />
-          		<title>Ben Randall</title>
-          		<link rel="canonical" href="http://benrandall.me" />
+          		<title>bengr.studio</title>
+          		<link rel="canonical" href="http://bengr.studio" />
         	</Helmet>
 			<Navbar expand="lg">
-				<Navbar.Brand>Ben Randall ✨</Navbar.Brand>
+				<Navbar.Brand>Beng.r ✨</Navbar.Brand>
 				<Navbar.Toggle aria-controls="basic-navbar-nav" />
-				<Navbar.Collapse id="basic-navbar-nav">
-					<Nav as="ul" className="ml-auto">
-						<Nav.Item as="li"><Link to="/">Home</Link></Nav.Item>
-						{/* <Nav.Item as="li"><Link to="/portfolio/">Contact</Link></Nav.Item> */}
-					</Nav>
-				</Navbar.Collapse>
 			</Navbar>
 			{children}
 			<div className="footer">
-				<p>✨ Benjamin Randall 2021 ✨</p>
+				<p>✨ Beng.r 2023 ✨</p>
 			</div>
 		</Container>
 	)

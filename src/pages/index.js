@@ -1,13 +1,12 @@
 import * as React from "react";
 import { Link } from "gatsby";
 import Layout from "../components/layout";
-import ReactPlayer from "react-player";
+import ReactPlayer from "react-player/vimeo";
 import { Container, Row, Col } from "react-bootstrap";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelopeSquare } from '@fortawesome/free-solid-svg-icons'
 import { faInstagramSquare, faLinkedin, faGithubSquare } from '@fortawesome/free-brands-svg-icons'
 import './index.css';
-
 
 import profilePic from "../images/Swirl14-red5.png"
 import cursor from "../images/Cursor2.png"
@@ -37,18 +36,11 @@ function Home () {
                 </Row>
                 <Row>
                     <Col lg="3" className="box header-box-2 fill">
-                        <p className="sparkle-line sl-top">┈⛧┈❀✧❀┈⛧┈</p>
+                        <p className="sparkle-line sl-top">┈ ✧ ┈ ❀ ✧ ❀ ┈ ✧ ┈</p>
                         <div className="header-text">
-                            <p>Hi, my name is Ben and I like art, music, technology, and new experiences.</p>
+                            <p>Hi, my name is Ben and I like art, music, technology, and new experiences. My work explores generative art, transmedia storytelling, live music, and community.</p>
                         </div>
-                    </Col>
-                </Row>
-                <Row>
-                    <Col lg="3" className="box header-box-3 fill">
-                        <div className="header-text">
-                            <p>My work explores generative art, transmedia storytelling, live music, and community.</p>
-                        </div>
-                        <p className="sparkle-line sl-bottom">┈⛧┈✧✿✧┈⛧┈</p>
+                        <p className="sparkle-line sl-bottom">┈ ✧ ┈ ✧ ✿ ✧ ┈ ✧ ┈</p>
                     </Col>
                 </Row>
             </Container>
@@ -64,19 +56,17 @@ function Home () {
                     <Col className="fill box-portfolio">
                         <Link className="fill" to="/ffd/"><img src={pfFfd}/><h2>Fall For Dance</h2></Link>
                     </Col>
-                </Row>
-                <Row>
                     <Col className="fill box-portfolio">
                         <Link className="fill" to="/chlorobo/"><img src={pfChlorobo}/><h2>Chlorobo</h2></Link>
                     </Col>
+                </Row>
+                <Row>
                     <Col className="fill box-portfolio">
                         <Link className="fill" to="/laruta/"><img src={pfLaRuta}/><h2>La Ruta</h2></Link>
                     </Col>
                     <Col className="fill box-portfolio">
                         <Link className="fill" to="/intheether/"><img src={pfInTheEther}/><h2>In The Ether</h2></Link>
                     </Col>
-                </Row>
-                <Row>
                     <Col className="fill box-portfolio">
                         <Link className="fill" to="/desertrose/"><img src={pfDesertRose}/><h2>Desert Rose</h2></Link>
                     </Col>
@@ -91,11 +81,14 @@ function Home () {
             <br/>
             <Container className="credits-container">
                 <h2>Recent Credits</h2>
-                <p><b>Fusebox Festival (2022)</b> - Integrated Media Designer, Video Engineer</p>
-                <p><b>A Million Alien Gospels (2022)</b> - Integrated Media Designer</p>
-                <p><b>Bee Cave BuzzFest (2022)</b> - Integrated Media Designer, Video Engineer</p>
-                <p><b>Der Kaiser Von Atlantis (2022)</b> - Integrated Media Designer</p>
-                <p><b>Fall For Dance (2021)</b> - Integrated Media Designer, Video Engineer</p>
+                <p><b>Rite of Passage (2023)</b> - Creative Director, Media Designer</p>
+                <p><b>Pagliacci (2022)</b> - Assistant Media Designer</p>
+                <p><b>In Sisters We Trust (2022)</b> - Media Designer, Video Engineer</p>
+                <p><b>Fusebox Festival (2022)</b> - Media Designer, Video Engineer</p>
+                <p><b>A Million Alien Gospels (2022)</b> - Media Designer, Video Engineer</p>
+                <p><b>Bee Cave BuzzFest (2022)</b> - Media Designer, Video Engineer</p>
+                <p><b>Der Kaiser Von Atlantis (2022)</b> - Media Designer, Video Engineer</p>
+                <p><b>Fall For Dance (2021)</b> - Media Designer, Video Engineer</p>
                 <p><b>Chlorobo (2021)</b> - Creative Director, Media Designer, Web Designer</p>
                 <p><b>Eyes On The Sky: XR Teaser (2021)</b> - Media Designer, TouchDesigner Engineer</p>
                 <p><b>In The Ether (2021)</b> - Experience Designer, Web Designer, Video Editor, Media Designer</p>
@@ -107,7 +100,7 @@ function Home () {
                 <p>Visit my <a href="https://www.instagram.com/beng.r/" target="_blank" rel="noreferrer">Instagram</a> for explorations in generative art.</p>
             </Container>
             <br/>
-            <Container>
+            <Container className="credits-container">
                 <h2>Contact Me</h2>
                 <p>I regularly check my email at <a href="mailto:bengr35@gmail.com" target="_blank" rel="noreferrer">bengr35@gmail.com</a></p>
                 <div className="box-crystals">
@@ -119,7 +112,7 @@ function Home () {
                         <a className="social-link" href="https://www.instagram.com/beng.r/" target="_blank" rel="noreferrer">
                             <FontAwesomeIcon icon={faInstagramSquare} />
                         </a>
-                        <a className="social-link" href="https://www.linkedin.com/in/benjamin-randall-ba3a55104/" target="_blank" rel="noreferrer">
+                        <a className="social-link" href="https://www.linkedin.com/in/beng-r/" target="_blank" rel="noreferrer">
                             <FontAwesomeIcon icon={faLinkedin} />
                         </a>
                         <a className="social-link" href="https://github.com/benrandall" target="_blank" rel="noreferrer">

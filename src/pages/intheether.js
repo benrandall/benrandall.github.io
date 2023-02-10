@@ -1,7 +1,7 @@
 import * as React from "react";
 // import { Link } from "gatsby";
 import Layout from "../components/layout";
-import ReactPlayer from "react-player";
+import ReactPlayer from "react-player/vimeo";
 import "./index.css";
 
 import breath from "../images/ether/breath.png";
