@@ -26,7 +26,7 @@ function Home () {
     return (
         <Layout>
             <Container className="video-header">
-                <ReactPlayer className="header-player fade-in" url="https://player.vimeo.com/video/537410608?badge=0&amp;autopause=0&amp;player_id=0" height="100%" width="100%" controls={false} muted={true} playing={true} loop={true} playsinline/>
+                <ReactPlayer className="header-player fade-in" url="https://player.vimeo.com/video/537410608?badge=0&amp;autopause=0&amp;player_id=0;quality=1080p" height="100%" width="100%" controls={false} muted={true} playing={true} loop={true} playsinline/>
                 <Row>
                     <Col lg="3" className="fill box header-box-1">
                         {/* <p className="sparkle-line sl-top">┈⛧┈❀✧❀┈⛧┈</p> */}
@@ -38,16 +38,16 @@ function Home () {
                     <Col lg="3" className="box header-box-2 fill">
                         <p className="sparkle-line sl-top">┈ ✧ ┈ ❀ ✧ ❀ ┈ ✧ ┈</p>
                         <div className="header-text">
-                            <p>Hi, my name is Ben and I like art, music, technology, and new experiences. My work explores generative art, transmedia storytelling, live music, and community.</p>
+                            <p>Hi, my name is Ben and I like art, music, technology, and new experiences.My work explores generative art, transmedia storytelling, live music, and community.</p>
                         </div>
                         <p className="sparkle-line sl-bottom">┈ ✧ ┈ ✧ ✿ ✧ ┈ ✧ ┈</p>
                     </Col>
                 </Row>
             </Container>
             <Container>
-                <h2>Selected Work</h2>
+                {/* <h2>Selected Work</h2> */}
                 <Row>
-                    <Col className="fill box-portfolio">
+                    <Col className="first-box fill box-portfolio">
                         <Link className="fill" to="/amag/"><img src={pfAmag}/><h2>A Million Alien Gospels</h2></Link>
                     </Col>
                     <Col className="fill box-portfolio">
@@ -56,12 +56,12 @@ function Home () {
                     <Col className="fill box-portfolio">
                         <Link className="fill" to="/ffd/"><img src={pfFfd}/><h2>Fall For Dance</h2></Link>
                     </Col>
-                    <Col className="fill box-portfolio">
+                    <Col className="last-box fill box-portfolio">
                         <Link className="fill" to="/chlorobo/"><img src={pfChlorobo}/><h2>Chlorobo</h2></Link>
                     </Col>
                 </Row>
                 <Row>
-                    <Col className="fill box-portfolio">
+                    <Col className="first-box fill box-portfolio">
                         <Link className="fill" to="/laruta/"><img src={pfLaRuta}/><h2>La Ruta</h2></Link>
                     </Col>
                     <Col className="fill box-portfolio">
@@ -73,7 +73,7 @@ function Home () {
                     <Col className="fill box-portfolio">
                         <Link className="fill" to="/sharedfrequencies/"><img src={pfSharedFrequencies}/><h2>Shared Frequencies</h2></Link>
                     </Col>
-                    <Col className="fill box-portfolio">
+                    <Col className="last-box fill box-portfolio">
                         <Link className="fill" to="/staticpillars/"><img src={pfStaticPillars}/><h2>Static Pillars</h2></Link>
                     </Col>
                 </Row>

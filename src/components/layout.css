@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Libre+Franklin');
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:ital,wght@0,300;0,400;0,900;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex:ital,wght@0,300;0,400;0,900;1,400&display=swap');
 
 html {
     height: 100%;
@@ -12,6 +13,12 @@ body {
     background: white;
     margin: 0;
 }
+
+.navbar-brand {
+    font-family: 'IBM Plex', sans-serif;
+    /* font-weight: bold; */
+}
+
 
 p {
     margin-bottom: 0;
@@ -35,7 +42,7 @@ h3 {
 }
 
 .navbar {
-    padding: .5rem 0;
+    padding: .75rem 0 0 0;
 }
 
 .navbar a {
@@ -62,6 +69,7 @@ h3 {
 .footer {
     text-align: center;
     padding: 10px;
+    font-family: 'IBM Plex', sans-serif;
 }
 
 .responsive-google-slides {

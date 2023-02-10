@@ -5263,6 +5263,15 @@ gatsby-recipes@^0.26.0:
     xstate "^4.9.1"
     yoga-layout-prebuilt "^1.9.6"
 
+gatsby-remark-embed-video@^3.2.1:
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/gatsby-remark-embed-video/-/gatsby-remark-embed-video-3.2.1.tgz#167782a862f99c8d2f0ae988d5519466e75f9829"
+  integrity sha512-VVrcoNcLtWH4Ffqs2Qc2me9Ph+p8iXi9kMbX1OLFLY3JMtk5+lIOUGs0CutWsWKndj2W6PpfkwdFZyuknL5kjQ==
+  dependencies:
+    get-video-id "^3.6.4"
+    remark-burger "^1.0.1"
+    unist-util-visit "^2.0.3"
+
 gatsby-source-filesystem@^3.3.0:
   version "3.15.0"
   resolved "https://registry.yarnpkg.com/gatsby-source-filesystem/-/gatsby-source-filesystem-3.15.0.tgz#2ecee63279d267e9cc324ad1cb5facf033a1cdd8"
@@ -5536,6 +5545,11 @@ get-value@^2.0.3, get-value@^2.0.6:
   version "2.0.6"
   resolved "https://registry.yarnpkg.com/get-value/-/get-value-2.0.6.tgz#dc15ca1c672387ca76bd37ac0a395ba2042a2c28"
   integrity sha512-Ln0UQDlxH1BapMu3GPtf7CuYNwRZf2gwCuPqbyG6pB8WfmFpzqcy4xtAaAMUhnNqjMKTiCPZG2oMT3YSx8U2NA==
+
+get-video-id@^3.6.4:
+  version "3.6.5"
+  resolved "https://registry.yarnpkg.com/get-video-id/-/get-video-id-3.6.5.tgz#a7bfa1e8602557f2fcbed164d7005fdaa352d572"
+  integrity sha512-9RPHSQANIeGW5rU3CjWdm1zi+wUHbBWX+m4m+dqQAavrZ9p1P1J7AbxGvVEEHRyGfGrmMf5PqiRWYMyfqM+QYA==
 
 gh-pages@^3.1.0:
   version "3.2.3"
@@ -9199,6 +9213,11 @@ regjsparser@^0.9.1:
   dependencies:
     jsesc "~0.5.0"
 
+remark-burger@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/remark-burger/-/remark-burger-1.0.1.tgz#cda57d4bc1e952ae86b2407fbcf36492ab352106"
+  integrity sha512-F91SyEzat4hBkWsWElHIvMcCQuWoSeZXTuR4DmLvhUIjYkzzVLaX6GRxhkiDrZb/9asvTrYzwEr9HvxN1tqs9Q==
+
 remark-mdx@^2.0.0-next.4:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/remark-mdx/-/remark-mdx-2.3.0.tgz#efe678025a8c2726681bde8bf111af4a93943db4"
@@ -10696,7 +10715,7 @@ unist-util-visit@^1.1.0:
   dependencies:
     unist-util-visit-parents "^2.0.0"
 
-unist-util-visit@^2.0.0, unist-util-visit@^2.0.2:
+unist-util-visit@^2.0.0, unist-util-visit@^2.0.2, unist-util-visit@^2.0.3:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/unist-util-visit/-/unist-util-visit-2.0.3.tgz#c3703893146df47203bb8a9795af47d7b971208c"
   integrity sha512-iJ4/RczbJMkD0712mGktuGpm/U4By4FfDonL7N/9tATGIF4imikjOuagyMY53tnZq3NP6BcmlrHhEKAfGWjh7Q==

@@ -13,13 +13,14 @@ export default function Layout({ children }) {
           		<title>bengr.studio</title>
           		<link rel="canonical" href="http://bengr.studio" />
         	</Helmet>
-			<Navbar expand="lg">
-				<Navbar.Brand>Beng.r ✨</Navbar.Brand>
-				<Navbar.Toggle aria-controls="basic-navbar-nav" />
-			</Navbar>
+			<Container>
+				<Navbar expand="lg">
+					<Navbar.Brand>BENG.R ✨</Navbar.Brand>
+				</Navbar>
+			</Container>
 			{children}
 			<div className="footer">
-				<p>✨ Beng.r 2023 ✨</p>
+				<p>✨ BENG.R 2023 ✨</p>
 			</div>
 		</Container>
 	)
