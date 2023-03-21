@@ -33,10 +33,11 @@ import DCP_4521 from "../images/staticpillars/DCP_4521.jpg";
 function Staticpillars () {
     return (
         <Layout>
-            <h1>Static Pillars</h1>
-            <div className="blog-container">
+            <div className="blog-container container">
+                <h1>Static Pillars</h1>
                 <div className="sp-blog-post">
                     <p><em>Static Pillars</em> is an interactive art installation in which the audience sees a reflection of themselves represented on obsolete technology. The experience is meant to be a discovery of interactivity.</p>
+                    <br/>
                     <div className="reactplayer-wrapper">
                         <ReactPlayer className="reactplayer-widthfull" url="https://player.vimeo.com/video/308233842" width="100%" height="100%" controls={true} muted={false} playing={false} loop={false} playsinline/>
                     </div>

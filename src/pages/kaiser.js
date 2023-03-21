@@ -19,12 +19,13 @@ import kaiser12 from "../images/kaiser/kaiser12.jpg";
 function Kaiser () {
     return (
         <Layout>
-            <h1>Der Kaiser Von Atlantis</h1>
-            <div className="blog-container">
+            <div className="blog-container container">
+                <h1>Der Kaiser Von Atlantis</h1>
                 <p>2022 - Projection and media design for Viktor Ullmann's 1944 one-act opera.</p>
                 <p className="no-margin">Lighting Design: Ron Collins</p>
                 <p className="no-margin">Scenic Design: Hsiao-Wei Chen</p>
                 <p>Costume Design: Aaron Kubacak</p>
+                <br/>
                 <div className="center"><img className="chlorobo-pic" src={kaiser1}/></div>
                 {/* <div className="center"><img className="chlorobo-pic" src={kaiser2}/></div> */}
                 <div className="center"><img className="chlorobo-pic" src={kaiser3}/></div>

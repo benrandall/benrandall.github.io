@@ -1,9 +1,12 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './layout.css';
+import bengrIcon from "../images/bengrEyePng-Transparent.png"
 import { Container, Navbar, Nav } from "react-bootstrap";
 import { Link } from "gatsby";
 import { Helmet } from "react-helmet"
+import { ThemeToggler } from 'gatsby-plugin-dark-mode'
+
 
 export default function Layout({ children }) {
     return (
@@ -15,7 +18,21 @@ export default function Layout({ children }) {
         	</Helmet>
 			<Container>
 				<Navbar expand="lg">
-					<Navbar.Brand>BENG.R ✨</Navbar.Brand>
+					<a class="navbar-brand" href="/">
+    					<img className="bengr-icon" src={bengrIcon} height="20" alt=""/>
+					</a>
+					<Navbar.Brand>BENG.R</Navbar.Brand>
+					<ThemeToggler>
+						{({ theme, toggleTheme }) => (
+						<label>
+							<input
+							type="checkbox"
+							onChange={e => toggleTheme(e.target.checked ? 'dark' : 'light')}
+							checked={theme === 'dark'}
+							/>{' '}
+						</label>
+						)}
+					</ThemeToggler>
 				</Navbar>
 			</Container>
 			{children}

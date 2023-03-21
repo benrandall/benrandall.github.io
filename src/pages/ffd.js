@@ -12,11 +12,11 @@ import ffd5 from "../images/ffd/ffd5.jpg";
 function Bcbf () {
     return (
         <Layout>
-            <h1>Fall For Dance</h1>
-            <div className="blog-container">
+            <div className="blog-container container">
+                <h1>Fall For Dance</h1>
                 <p>2021 - Immersive projection design for Fall For Dance. Media design for three unique dance pieces. Experimentation with AI video as it relates to live audio and dance.</p>
-                <p className="no-margin">Lighting Design: </p>
                 <p>Costume Design: Katie Miller</p>
+                <br/>
                 <div className="center"><img className="chlorobo-pic" src={ffd1}/></div>
                 <div className="center"><img className="chlorobo-pic" src={ffd2}/></div>
                 <div className="center"><img className="chlorobo-pic" src={ffd4}/></div>

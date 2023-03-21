@@ -8,10 +8,12 @@ import prototype from "../images/desertrose/prototype.jpg";
 function DesertRose () {
     return (
         <Layout>
-            <h1>Desert Rose</h1>
-            <div className="blog-container">
+            <div className="blog-container container">
+                <h1>Desert Rose</h1>
                 <p>This is an interactive art installation I worked on in 2018 with one classmate. The idea was to create and protype something that would feel cohesive with the art direction of Coachella music festival.</p>
+                <br/>
                 <p>I used an infrared camera to create a variety of real-time interactive visuals that were to be displayed on six separate "sepals" on the rose. The visuals include interactive particle rain, "drawing" with a phone flashlight, and more. I uploaded a <a href="https://github.com/benrandall/AET_Desert_Rose" target="_blank" rel="noreferrer">demo repo</a> to allow people with TouchDesigner to download and run the visuals. </p>
+                <br/>
                 <img src={prototype}/>
                 <br />
                 <div className="reactplayer-wrapper">

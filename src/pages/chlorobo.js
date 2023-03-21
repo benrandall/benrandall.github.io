@@ -10,11 +10,12 @@ import chloroboss4 from "../images/chlorobo/chloroboss4.png";
 function Chlorobo () {
     return (
         <Layout>
+            <div className="blog-container container">
             <h1>Chlorobo</h1>
-            <div className="blog-container">
                 <p>In <i>Chlorobo</i>, we explore what it means to be human through a series of poems, puzzles, and musical pieces.</p>
                 <p>After conceptualizing the project, I worked primarily as creative director, artist, programmer, and team lead.</p>
-                <p>View the project <a href="https://chlorobo.com" target="_blank" rel="noopener">here</a>.</p>
+                {/* <p>View the project <a href="https://chlorobo.com" target="_blank" rel="noopener">here</a>.</p> */}
+                <br/>
                 <div className="center"><img className="chlorobo-pic" src={chloroboss4}/></div>
                 <div className="center"><img className="chlorobo-pic" src={chloroboss1}/></div>
                 <div className="center"><img className="chlorobo-pic" src={chloroboss2}/></div>

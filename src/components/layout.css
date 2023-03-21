@@ -14,11 +14,42 @@ body {
     margin: 0;
 }
 
+body.light {
+    background: white;
+    color: black;
+    /* transition: 120ms ease-in-out; */
+}
+
+body.dark {
+    background: black;
+    color: white;
+    /* transition: 120ms ease-in-out; */
+}
+
 .navbar-brand {
     font-family: 'IBM Plex', sans-serif;
+    margin-right: 8px;
+    font-size: 1.55rem;
     /* font-weight: bold; */
 }
 
+.navbar-brand img {
+    transform: translate(0, -2px);
+}
+
+body.dark .navbar-brand {
+    color: white;
+    /* transition: 120ms ease-in-out; */
+}
+
+body.dark .navbar-brand img {
+    filter: invert(1);
+    /* transition: 120ms ease-in-out; */
+}
+
+body.dark .navbar-light .navbar-brand:hover {
+    color: white;
+}
 
 p {
     margin-bottom: 0;
@@ -26,20 +57,79 @@ p {
 
 h1 {
     font-size: 2.5em;
-    margin: .25em 0em;
+    margin: . 0em 0em 25em 0em;
     font-weight: bold;
 }
 
 h2 {
     font-size: 1.5em;
     font-weight: bold;
-    margin: 0;
+    margin-bottom: 0.5rem;
 }
 
 h3 {
     font-size: 1.5em;
     font-weight: bold;
 }
+
+.form-control {
+    font-family: system-ui, sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1.1;
+    display: grid;
+    grid-template-columns: 1em auto;
+    gap: 0.5em;
+  }
+  
+  .form-control + .form-control {
+    margin-top: 1em;
+  }
+  
+  .form-control--disabled {
+    color: var(--form-control-disabled);
+    cursor: not-allowed;
+  }
+  
+  input[type="checkbox"] {
+    /* Add if not using autoprefixer */
+    -webkit-appearance: none;
+    /* Remove most all native input styles */
+    appearance: none;
+    /* For iOS < 15 */
+    background-color: var(--form-background);
+    /* Not removed via appearance */
+    margin: 0;
+  
+    font: inherit;
+    color: currentColor;
+    width: 0.6em;
+    height: 0.6em;
+    border: 0.1em solid currentColor;
+    border-radius: 0em;
+    transform: translateY(-0.075em);
+
+    display: grid;
+    place-content: center;
+  }
+  
+  input[type="checkbox"]::before {
+    content: "";
+    width: 0.65em;
+    height: 0.65em;
+    transform: scale(0);
+    transform-origin: middle center;
+    transition: 120ms transform ease-in-out;
+    box-shadow: inset 1em 1em var(--form-control-color);
+    /* Windows High Contrast Mode */
+    background-color: CanvasText;
+    border: 0.1em solid white;
+  }
+  
+  input[type="checkbox"]:checked::before {
+    transform: scale(1);
+    transition: 120ms transform ease-in-out;
+  }
 
 .navbar {
     padding: .75rem 0 0 0;

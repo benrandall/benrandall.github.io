@@ -18,12 +18,15 @@ import webinar2 from "../images/ether/webinar2.png";
 function InTheEther () {
     return (
         <Layout>
-            <h1>In The Ether</h1>
-            <div className="blog-container">
+            <div className="blog-container container">
+                <h1>In The Ether</h1>
                 <p><i>Credits: Experience Designer, Web Designer, Video Editor, Media Design</i></p>
+                <br/>
                 <div className="sp-blog-post"> 
                     <p>An investigation of embodiment and our virtual identity, In the Ether is a staged rehearsal of possible cyborg realities. Utilizing live streaming, emergent technologies and performance, In the Ether explores elements of cyborg and queer theories by challenging our core notions of perception and existence in a cybernetic world.</p>
+                    <br/>
                     <p>In the Ether is an iteration of The Ether series, created by Erica Gionfriddo (ARCOS), that has been evolving through performances across the U.S. since 2016. This exploration of ‘self’ speaks volumes to our present moment, when the imperative to remain physically separate from others has cast humanity into the arms of virtual spaces that disincentivize embodiment while simultaneously providing access to our ever-growing global community. By advocating for expansive definitions of both body and technology, participants and spectators are invited to imagine their sense of self beyond their dominant reality and embrace the pleasurable confusion of the multiplicity of realities we are capable of co-creating.</p>
+                    <br/>
                     <p>For this production, I translated the concepts of presence, agency, and meditation to a 1 hour interactive web experience.</p>
                 </div>
                 <div className="sp-blog-post">

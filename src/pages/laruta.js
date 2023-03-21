@@ -32,15 +32,20 @@ import img4 from "../images/laruta/Untitled (4).png";
 function Laruta () {
     return (
         <Layout>
-            <h1>La Ruta</h1>
-            <div className="blog-container">
+            <div className="blog-container container">
+                <h1>La Ruta</h1>
                 <img src={larutaheader}/>
                 <h2>Building a Remote Production Desk with TouchDesigner</h2>
                 <p>In Isaac Gómez's La Ruta, we are told the heartbreaking story of a border town, a bus route and the women of Ciudad Juárez. Inspired by real testimonies from women affected by the ongoing femicides along the border, La Ruta weaves together beautiful storytelling and music in a celebration of the resilience of Mexican women in the wake of tremendous loss. Read more about this stage play and its production <a href="https://www.notion.so/utim/Building-a-Remote-Production-Desk-with-TouchDesigner-0732e0f8f2464a38aecc14a910ad514c#87f9cf8aab1b4c97a2c7dcb7bb42290f" target="_blank" rel="noreferrer">here</a>.</p>
+                <br/>
                 <p>I was brought into the production of La Ruta after the pivot to a remote production was decided. The media designer’s role in this play, which previously was traditional media creation and stage projection, quickly grew into a massive, tangled up job of systems engineering, media design, direction, and audio engineering. John Erickson, the media designer, brought me in as his assistant. In this role, I took over solving the technical aspects of the performance, and early on we decided that our remote queuing/compositing system would primarily live in TouchDesigner.</p>
+                <br/>
                 <p>Our baseline goal for La Ruta was a live-streamed table read. You can imagine this as a Zoom stream of the actors rehearsing their parts from their individual homes, with less emphasis on a polished performance. As the production began to develop, the idea evolved into a Zoom/Skype call between all the actors with customizable window placements, dynamic media backgrounds, and programmable cues. From this point, we drew up a list of technical challenges: working with remote performers in multiple locations, compositing and arranging their streams in real time, having a familiar cueing system for John and our operator, and individual audio routing for all the actors. Through the planning process, John’s design choices influenced our technical needs and my technical research influenced the end design.</p>
+                <br/>
                 <p>Our technical objective, as it became more focused, was to be able to ingest and manipulate nine different live feeds from actors in 2D space and to recall each unique layout based on cues sent from a seperate computer running QLab. We also wanted the actor feeds to have soft, blurred edges, rather than sharp rectangular windows. Finally, the media designer (John) wanted to be able to composite the actor feeds on top of content sent from QLab , and have that final video and audio be streamed to Vimeo.</p>
+                <br/>
                 <p>Here’s a sneak peak of what we would end up designing, with this in mind:</p>
+                <br/>
                 <Row>
                     <Col><img src={screenshotA}/></Col>
                     <Col><img src={screenshotB}/></Col>

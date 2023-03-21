@@ -38,7 +38,7 @@ function Home () {
                     <Col lg="3" className="box header-box-2 fill">
                         <p className="sparkle-line sl-top">┈ ✧ ┈ ❀ ✧ ❀ ┈ ✧ ┈</p>
                         <div className="header-text">
-                            <p>Hi, my name is Ben and I like art, music, technology, and new experiences.My work explores generative art, transmedia storytelling, live music, and community.</p>
+                            <p>Hi, my name is Ben. My work explores generative art, transmedia storytelling, immersive live music, and community.</p>
                         </div>
                         <p className="sparkle-line sl-bottom">┈ ✧ ┈ ✧ ✿ ✧ ┈ ✧ ┈</p>
                     </Col>
@@ -81,6 +81,7 @@ function Home () {
             <br/>
             <Container className="credits-container">
                 <h2>Recent Credits</h2>
+                <p><b>Blue, Contrapposto, Blue (2023)</b> - Media Designer, Video Engineer</p>
                 <p><b>Rite of Passage (2023)</b> - Creative Director, Media Designer</p>
                 <p><b>Pagliacci (2022)</b> - Assistant Media Designer</p>
                 <p><b>In Sisters We Trust (2022)</b> - Media Designer, Video Engineer</p>
