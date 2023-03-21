@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkbengr_studio=self.webpackChunkbengr_studio||[]).push([[25],{8994:function(e,t,n){n.r(t);var u=n(7294),r=(n(5444),n(1989));t.default=function(){return u.createElement(r.Z,null,"Portfolio time")}}}]);
+//# sourceMappingURL=component---src-pages-portfolio-js-1ccba9a3c4691acd3384.js.map
