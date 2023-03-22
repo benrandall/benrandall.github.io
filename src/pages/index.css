@@ -137,12 +137,17 @@ div.box {
     -moz-border-radius: 7px; */
     /* border-radius: 7px; */
     padding: 0!important;
+    /* filter: brightness(.7)saturate(.2); */
+    transition: .2s all;
 }
 
 .box-portfolio h2 {
+    font-family: 'IBM Plex', sans-serif;
+    font-size: 1em;
     text-align: center;
     position: absolute;
-    top: 45%;
+    /* top: 45%; */
+    padding: 1.5em;
     left: 0;
     width: 100%;
     opacity:0;
@@ -150,13 +155,13 @@ div.box {
 }
 
 .box-portfolio:hover img{
-    transition: .2s all;
-    filter: blur(2px);
-    filter: brightness(.3);
+    transition: .05s all;
+    /* filter: blur(2px); */
+    filter: brightness(.5)saturate(.8);
 }
 
 .box-portfolio:hover h2{
-    transition: .2s all;
+    transition: .05s all;
     opacity: 1;
 }
 

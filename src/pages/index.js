@@ -11,6 +11,7 @@ import './index.css';
 import profilePic from "../images/Swirl14-red5.png"
 import cursor from "../images/Cursor2.png"
 
+import pfBcb from "../images/bcb.jpg"
 import pfAmag from "../images/amag.jpg"
 import pfKaiser from "../images/kaiser.jpg"
 import pfFfd from "../images/ffd.jpg"
@@ -48,6 +49,9 @@ function Home () {
                 {/* <h2>Selected Work</h2> */}
                 <Row>
                     <Col className="first-box fill box-portfolio">
+                        <Link className="fill" to="/bcb/"><img src={pfBcb}/><h2>Blue, Contrappasto, Blue</h2></Link>
+                    </Col>
+                    <Col className="fill box-portfolio">
                         <Link className="fill" to="/amag/"><img src={pfAmag}/><h2>A Million Alien Gospels</h2></Link>
                     </Col>
                     <Col className="fill box-portfolio">
